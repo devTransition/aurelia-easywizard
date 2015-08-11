@@ -1,0 +1,51 @@
+{
+  "author": "devTransition",
+  "description": "aurelia wizard",
+  "keywords": [
+    "aurelia",
+    "wizard"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/devTransition/aurelia-easywizard",
+  "bugs": {
+    "url": "https://github.com/devTransition/aurelia-easywizard/issues"
+  },
+  "jspm": {
+     "name": "aurelia-easywizard",
+    "version": "dev",
+    "main": "main",
+    "format": "register",
+    "directories": {
+      "lib": "dist/system"
+    },
+    "dependencies": {
+      "aurelia-event-aggregator": "aurelia/event-aggregator@^0.6.2",
+      "aurelia-framework": "aurelia/framework@^0.14.1",
+      "jquery": "components/jquery@^2.1.1",
+      "lodash": "npm:lodash@^3.10.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.1.13",
+      "babel-runtime": "npm:babel-runtime@^5.1.13",
+      "core-js": "npm:core-js@^0.9.4"
+    }
+  },
+  "registry": "github",
+  "repository": {
+    "type": "git",
+    "url": "github:aurelia-easywizard/wizard"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-cached": "^1.1.0",
+    "gulp-changed": "^1.3.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-param": "^0.6.3",
+    "gulp-plumber": "^1.0.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "object.assign": "^3.0.1",
+    "run-sequence": "^1.1.2"
+  }
+}
