@@ -11,16 +11,14 @@
     "url": "https://github.com/devTransition/aurelia-easywizard/issues"
   },
   "jspm": {
-     "name": "aurelia-easywizard",
-    "version": "dev",
     "main": "main",
     "format": "register",
     "directories": {
       "lib": "dist/system"
     },
     "dependencies": {
-      "aurelia-event-aggregator": "aurelia/event-aggregator@^0.6.2",
-      "aurelia-framework": "aurelia/framework@^0.14.1",
+      "aurelia-templating": "aurelia/templating@^0.13.16",
+      "aurelia-validation": "aurelia/validation@^0.2.7",
       "jquery": "components/jquery@^2.1.1",
       "lodash": "npm:lodash@^3.10.1"
     },

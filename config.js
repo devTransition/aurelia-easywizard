@@ -14,8 +14,7 @@ System.config({
 
 System.config({
   "map": {
-    "aurelia-event-aggregator": "github:aurelia/event-aggregator@0.6.2",
-    "aurelia-framework": "github:aurelia/framework@0.14.1",
+    "aurelia-templating": "github:aurelia/templating@0.13.16",
     "aurelia-validation": "github:aurelia/validation@0.2.7",
     "babel": "npm:babel-core@5.8.21",
     "babel-runtime": "npm:babel-runtime@5.8.20",
@@ -32,20 +31,6 @@ System.config({
     "github:aurelia/dependency-injection@0.9.1": {
       "aurelia-logging": "github:aurelia/logging@0.6.2",
       "aurelia-metadata": "github:aurelia/metadata@0.7.2",
-      "core-js": "npm:core-js@0.9.18"
-    },
-    "github:aurelia/event-aggregator@0.6.2": {
-      "aurelia-logging": "github:aurelia/logging@0.6.2"
-    },
-    "github:aurelia/framework@0.14.1": {
-      "aurelia-binding": "github:aurelia/binding@0.8.5",
-      "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.9.1",
-      "aurelia-loader": "github:aurelia/loader@0.8.3",
-      "aurelia-logging": "github:aurelia/logging@0.6.2",
-      "aurelia-metadata": "github:aurelia/metadata@0.7.2",
-      "aurelia-path": "github:aurelia/path@0.8.1",
-      "aurelia-task-queue": "github:aurelia/task-queue@0.6.1",
-      "aurelia-templating": "github:aurelia/templating@0.13.16",
       "core-js": "npm:core-js@0.9.18"
     },
     "github:aurelia/loader@0.8.3": {
