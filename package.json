@@ -10,6 +10,12 @@
   "bugs": {
     "url": "https://github.com/devTransition/aurelia-easywizard/issues"
   },
+  "scripts": {
+    "test": "karma start",
+    "test:watch": "karma start --no-single-run",
+    "build": "gulp build",
+    "start": "gulp"
+  },
   "jspm": {
     "main": "main",
     "format": "register",
@@ -43,6 +49,13 @@
     "gulp-param": "^0.6.3",
     "gulp-plumber": "^1.0.1",
     "gulp-sourcemaps": "^1.5.2",
+    "istanbul": "^0.3.17",
+    "karma": "^0.12.28",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-coverage": "^0.5.0",
+    "karma-jasmine": "^0.3.5",
+    "karma-jspm": "^1.1.5",
+    "karma-phantomjs-launcher": "^0.2.1",
     "object.assign": "^3.0.1",
     "run-sequence": "^1.1.2"
   }
