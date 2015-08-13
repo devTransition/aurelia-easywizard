@@ -14,6 +14,8 @@ System.config({
 
 System.config({
   "map": {
+    "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.9.1",
+    "aurelia-event-aggregator": "github:aurelia/event-aggregator@0.6.2",
     "aurelia-templating": "github:aurelia/templating@0.13.16",
     "aurelia-validation": "github:aurelia/validation@0.2.7",
     "babel": "npm:babel-core@5.8.21",
@@ -32,6 +34,9 @@ System.config({
       "aurelia-logging": "github:aurelia/logging@0.6.2",
       "aurelia-metadata": "github:aurelia/metadata@0.7.2",
       "core-js": "npm:core-js@0.9.18"
+    },
+    "github:aurelia/event-aggregator@0.6.2": {
+      "aurelia-logging": "github:aurelia/logging@0.6.2"
     },
     "github:aurelia/loader@0.8.3": {
       "aurelia-html-template-element": "github:aurelia/html-template-element@0.2.0",
