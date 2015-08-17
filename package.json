@@ -16,26 +16,33 @@
     "build": "gulp build",
     "start": "gulp"
   },
-  "jspm": true,
-  "registry": "github",
-  "repository": {
-    "type": "git",
-    "url": "github:aurelia-easywizard/wizard"
+  "jspm": {
+    "main": "main",
+    "format": "register",
+    "directories": {
+      "lib": "dist/system"
+    },
+    "dependencies": {
+      "aurelia-event-aggregator": "github:aurelia/event-aggregator@0.7.0",
+      "aurelia-templating": "github:aurelia/templating@0.13.16",
+      "jquery": "github:components/jquery@^2.1.4",
+      "lodash": "npm:lodash@^3.10.1"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.21",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.0.0"
+    }
   },
   "devDependencies": {
-    "babel": "npm:babel-core@^5.1.13",
-    "babel-runtime": "npm:babesl-runtime@^5.1.13",
-    "core-js": "npm:core-js@^0.9.4"
-  },
-  "main": "main",
-  "format": "register",
-  "directories": {
-    "lib": "dist/system"
-  },
-  "dependencies": {
-    "aurelia-event-aggregator": "aurelia/event-aggregator@0.7.0",
-    "aurelia-templating": "aurelia/templating@0.13.16",
-    "jquery": "components/jquery@^2.1.1",
-    "lodash": "npm:lodash@^3.10.1"
+    "jasmine": "^2.3.2",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.13.9",
+    "karma-babel-preprocessor": "^5.2.1",
+    "karma-coverage": "^0.5.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^2.0.1-beta.2",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "phantomjs": "^1.9.18"
   }
 }

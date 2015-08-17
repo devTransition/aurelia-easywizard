@@ -23,6 +23,9 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [],
 
+    proxies: {
+            '/base': '/base/lib'
+        },
 
     // list of files to exclude
     exclude: [
@@ -33,18 +36,7 @@ module.exports = function(config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
       'test/**/*.js': ['babel'],
-      'lib/**/*.js': ['babel', 'coverage']
-    },
-    coverageReporter: {
-        reporters: [
-            {
-                type: 'text-summary',
-            },
-            {
-                type: 'html',
-                dir: 'coverage/',
-            }
-        ]
+      'lib/**/*.js': ['babel']
     },
     'babelPreprocessor': {
       options: {
