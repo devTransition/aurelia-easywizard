@@ -22,7 +22,7 @@ System.config({
     "core-js": "npm:core-js@1.0.1",
     "jquery": "github:components/jquery@2.1.4",
     "lodash": "npm:lodash@3.10.1",
-    "underscore.string": "npm:underscore.string@3.1.1",
+    "underscore.string": "npm:underscore.string@3.2.0",
     "github:aurelia/binding@0.8.6": {
       "aurelia-dependency-injection": "github:aurelia/dependency-injection@0.9.2",
       "aurelia-metadata": "github:aurelia/metadata@0.7.3",
@@ -82,8 +82,9 @@ System.config({
     "npm:lodash@3.10.1": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:underscore.string@3.1.1": {
-      "process": "github:jspm/nodelibs-process@0.1.1"
+    "npm:underscore.string@3.2.0": {
+      "process": "github:jspm/nodelibs-process@0.1.1",
+      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     }
   }
 });
