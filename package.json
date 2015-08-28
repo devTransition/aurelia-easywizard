@@ -23,8 +23,8 @@
       "lib": "dist/system"
     },
     "dependencies": {
-      "aurelia-event-aggregator": "github:aurelia/event-aggregator@0.7.0",
-      "aurelia-templating": "github:aurelia/templating@0.13.16",
+      "aurelia-event-aggregator": "github:aurelia/event-aggregator@^0.7.0",
+      "aurelia-templating": "github:aurelia/templating@^0.14.1",
       "jquery": "github:components/jquery@^2.1.4",
       "lodash": "npm:lodash@^3.10.1"
     },
