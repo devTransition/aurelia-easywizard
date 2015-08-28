@@ -4,7 +4,7 @@ System.register(['./wizard', './controller/wizard-controller', './controller/wiz
   _export('configure', configure);
 
   function configure(aurelia) {
-    aurelia.globalizeResources('./wizard', './events', './controller/wizard-controller', './controller/wizard-controller-step');
+    aurelia.use.globalizeResources('./wizard', './events', './controller/wizard-controller', './controller/wizard-controller-step');
   }
 
   return {
@@ -18,4 +18,4 @@ System.register(['./wizard', './controller/wizard-controller', './controller/wiz
     execute: function () {}
   };
 });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFJTyxXQUFTLFNBQVMsQ0FBQyxPQUFPLEVBQUU7QUFDL0IsV0FBTyxDQUFDLGtCQUFrQixDQUN4QixVQUFVLEVBQ1YsVUFBVSxFQUNWLGdDQUFnQyxFQUNoQyxxQ0FBcUMsQ0FDdEMsQ0FBQTtHQUNKOzs7O2dDQVhPLE1BQU07OzhEQUNOLGdCQUFnQjs7c0VBQ2hCLG9CQUFvQiIsImZpbGUiOiJtYWluLmpzIiwic291cmNlUm9vdCI6Ii4uL2xpYi8ifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFJTyxXQUFTLFNBQVMsQ0FBQyxPQUFPLEVBQUU7QUFDL0IsV0FBTyxDQUFDLEdBQUcsQ0FBQyxrQkFBa0IsQ0FDNUIsVUFBVSxFQUNWLFVBQVUsRUFDVixnQ0FBZ0MsRUFDaEMscUNBQXFDLENBQ3RDLENBQUE7R0FDSjs7OztnQ0FYTyxNQUFNOzs4REFDTixnQkFBZ0I7O3NFQUNoQixvQkFBb0IiLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZVJvb3QiOiIuLi9saWIvIn0=
